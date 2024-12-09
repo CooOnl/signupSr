@@ -22,5 +22,9 @@ public class UserService {
         // 새로운 유저 저장
         userMapper.insertUser(user);
         return "User registered successfully!";
+        
+        
+        
+        
     }
 }
